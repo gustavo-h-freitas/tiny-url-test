@@ -1,0 +1,18 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  --dark-blue: 2 43 58;
+  --teal: 31 122 140;
+  --columbia-blue: 191 219 247;
+  --lavender: 225 229 242;
+}
+
+.closed-info {
+  grid-template-rows: 0fr;
+}
+
+.open-info {
+  grid-template-rows: 1fr;
+}
